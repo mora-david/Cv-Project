@@ -66,8 +66,7 @@
             "MyVendor\\MyClass::postPackageInstall"
         ],
         "post-install-cmd": [
-            "MyVendor\\MyClass::warmCache",
-            "phpunit -c app/"
+            "MyVendor\\MyClass::warmCache"
         ],
         "post-autoload-dump": [
             "MyVendor\\MyClass::postAutoloadDump"
