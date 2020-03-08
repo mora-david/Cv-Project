@@ -66,7 +66,9 @@
             "MyVendor\\MyClass::postPackageInstall"
         ],
         "post-install-cmd": [
-            "MyVendor\\MyClass::warmCache"
+            "MyVendor\\MyClass::warmCache",
+            "php artisan clear-compiled",
+            "chmod -R 777 public/"
         ],
         "post-autoload-dump": [
             "MyVendor\\MyClass::postAutoloadDump"
