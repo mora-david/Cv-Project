@@ -5302,7 +5302,6 @@
                     "providers": [
                     ],
                     "aliases": {
-                        "Countries": "Webpatser\\Countries\\CountriesFacade"
                     }
                 }
             },

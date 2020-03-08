@@ -22,7 +22,6 @@
 
     },
     "require-dev": {
-        "webpatser/laravel-countries": "dev-master"
     },
     "config": {
         "optimize-autoloader": true,
